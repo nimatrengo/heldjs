@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@store": [
+        "src/core/render/store"
+      ],
+      "@viYou/*": [
+        "src/core/*"
+      ],
+      "@client/*": [
+        "src/HTML/*"
+      ]
+    },
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "outDir": "./public/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "useDefineForClassFields": true,
+    "target": "es5",
+    "jsx": "react",
+    "downlevelIteration": true,
+    "lib": [
+      "es2015",
+      "es6",
+      "dom"
+    ]
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
